@@ -1,0 +1,27 @@
+ section{
+ 
+  background-color: #1abc9c;
+} 
+
+
+span{
+  position: relative;
+}
+span::after{
+  content: '';
+  position: absolute;
+  width: 100px;
+  height: 5px;
+  background-color: white;
+  top: 50%;
+  right: 160%;
+}
+span::before{
+  content: '';
+  position: absolute;
+  width: 100px;
+  height: 5px;
+  background-color: white;
+  top: 50%;
+  left: 160%;
+}
